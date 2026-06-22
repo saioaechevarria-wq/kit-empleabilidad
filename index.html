@@ -337,6 +337,9 @@
   .langbtn:hover{color:var(--ink)}
   .langbtn.on{background:var(--b1);color:#fff}
   @media(max-width:640px){.langbtn{padding:5px 9px;font-size:.76rem}}
+/* Aviso visible solo en la versión en euskera */
+.eus-only{display:none}
+body.lang-eus .eus-only{display:block}
 </style>
 </head>
 <body>
@@ -904,6 +907,7 @@
 
     <h3 id="b5-prompts" class="rv">Prompts de IA listos para usar <span class="updated">rellenables</span></h3>
     <p class="rv">Haz clic en los campos amarillos para escribir tu información, y luego pulsa <strong>Copiar</strong>: el prompt se copia ya completado. Cada prompt mantiene el texto exacto del Kit.</p>
+    <p class="eus-only" style="margin:.2rem 0 1.1rem;padding:.75rem .95rem;background:#FFF7E6;border-left:4px solid #E0A100;border-radius:8px;font-size:.92em;line-height:1.45;color:#6b5600">&#9888;&#65039; Jarraian agertzen diren promptak gaztelaniaz daude, momentuz AAk ez baitu euskara ondo ezagutzen.</p>
 
     <div class="prompt rv">
       <div class="prompt-head"><span class="pt">&#128196; Prompt 1 · Optimizar el CV para una oferta concreta</span><button class="copy-btn">Copiar</button></div>
@@ -1158,6 +1162,7 @@
 <div class="view" id="anexo2" style="--accent:#15807F;--accent-soft:#E1F0EF">
 <div class="block-head"><div class="bignum">A2</div><div><h2>Anexo II · Prompts de IA para la búsqueda de empleo</h2></div></div>
 <p class="anx-lead">60 instrucciones listas para copiar y pegar en un asistente de IA (ChatGPT, Claude, Copilot…), organizadas en 11 bloques que cubren todo el proceso: del autodiagnóstico profesional a la negociación de la oferta. Pulsa <b>Copiar</b>, pégalo en el asistente y sustituye los campos entre corchetes por tu información real.</p>
+<p class="eus-only" style="margin:.2rem 0 1.1rem;padding:.75rem .95rem;background:#FFF7E6;border-left:4px solid #E0A100;border-radius:8px;font-size:.92em;line-height:1.45;color:#6b5600">&#9888;&#65039; Jarraian agertzen diren promptak gaztelaniaz daude, momentuz AAk ez baitu euskara ondo ezagutzen.</p>
 <div class="a2-index">
 <div class="a2-blk" id="a2-b1"><h4 class="a2-blk-h" style="--bc:#E11A2C"><span class="a2-bn">01</span>AUTODIAGNÓSTICO PROFESIONAL<span class="a2-bc">5 prompts</span></h4><div class="a2-chips">
 <span class="anx-chip anx-link" data-view="anexo2" data-anchor="a2-01"><b>01</b> Análisis de perfil profesional</span>
